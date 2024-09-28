@@ -1,0 +1,42 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Sat Sep 28 21:11:01 2024
+| Host         : DESKTOP-H9C91L2 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_hdmi_out_methodology_drc_routed.rpt -pb top_hdmi_out_methodology_drc_routed.pb -rpx top_hdmi_out_methodology_drc_routed.rpx
+| Design       : top_hdmi_out
+| Device       : xc7a200tsbg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 1
++--------+----------+--------------------------------------------------------+------------+
+| Rule   | Severity | Description                                            | Violations |
++--------+----------+--------------------------------------------------------+------------+
+| XDCC-1 | Warning  | Scoped Clock constraint overwritten with the same name | 1          |
++--------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+XDCC-1#1 Warning
+Scoped Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous scoped clock constraint with the same name. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -name clk -waveform {0.000 5.000} -add [get_ports clk] (Source: C:/Users/hausd/Dateien/Xilinx_proj/hdmi_simple/hdmi_simple.srcs/constrs_1/imports/Downloads/Nexys-Video-Master.xdc (Line: 9))
+Previous: create_clock -period 10.000 [get_ports clk] (Source: c:/Users/hausd/Dateien/Xilinx_proj/hdmi_simple/hdmi_simple.gen/sources_1/ip/clk_wiz_720p/clk_wiz_720p.xdc (Line: 56))
+Related violations: <none>
+
+

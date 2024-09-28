@@ -1,0 +1,35 @@
++================================+===============================+==============================+
+| Launch Setup Clock             | Launch Hold Clock             | Pin                          |
++================================+===============================+==============================+
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][3]/D  |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][5]/D  |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_green_reg[0][3]/D |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][6]/D  |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_green_reg[0][0]/D |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][7]/D  |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_red_reg[0][3]/D   |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_red_reg[0][6]/D   |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_green_reg[0][5]/D |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][0]/D  |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_red_reg[0][1]/D   |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_green_reg[0][1]/D |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_red_reg[0][2]/D   |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_red_reg[0][0]/D   |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_red_reg[0][4]/D   |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][1]/D  |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_green_reg[0][2]/D |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][4]/D  |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][2]/D  |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_green_reg[0][4]/D |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_green_reg[0][6]/D |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_red_reg[0][5]/D   |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_red_reg[0][7]/D   |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][8]/D  |
+| clk_out_371_25MHz_clk_wiz_720p | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_green_reg[0][7]/D |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_green_reg[0][9]/D |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_red_reg[0][9]/D   |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_shift_blue_reg[0][9]/D  |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_blue_next_reg[0]/D      |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_green_next_reg[0]/D     |
+| clk_out_74_25MHz_clk_wiz_720p  | clk_out_74_25MHz_clk_wiz_720p | TMDS_red_next_reg[0]/D       |
++--------------------------------+-------------------------------+------------------------------+
